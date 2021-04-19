@@ -99,6 +99,33 @@ namespace CSBasic
             Console.WriteLine("bool: " + sizeof(bool));
 
             bool TrueOrFalse = true;
+
+
+
+            int output = 0;
+            output += 52; //output=output+52
+            output += 273;
+            output += 103;
+            Console.WriteLine(output);
+
+            output *= 2;
+            Console.WriteLine(output);
+
+            //문자열 관련 복합 대입 연산자
+            string output2 = "Hello ";
+            output2 += "world";
+            output2 += "!";
+            Console.WriteLine(output2);
+
+            //증감연산자
+            int number = 10;            //num   출력값
+            Console.WriteLine(number++); //11     10
+            Console.WriteLine(++number); //12     12
+            Console.WriteLine(number--); //11     12
+            Console.WriteLine(--number); //10     10
+            Console.WriteLine(number);   //10
+
+
         }
     }
 }
