@@ -145,6 +145,20 @@ namespace CSBasic
             var number5 = 100.0;
             var number6 = 100.0F;
 
+            string input=Console.ReadLine(); //콘솔에서 키보드 입력받기
+            Console.WriteLine("input: " + input);
+            while (true)
+            {
+                input = Console.ReadLine();
+                if (input != "q")
+                {
+                    Console.WriteLine(input);
+                }
+                else
+                {
+                    break;
+                }
+            }
         }
     }
 }
