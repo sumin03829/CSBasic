@@ -75,7 +75,7 @@ namespace CSBasic
             Console.WriteLine(false);
 
             //Comparison operator
-            //== != > < >= <=
+            //== != > < >= <= 
             //=> <= -------- 오류
             Console.WriteLine(62 < 273);//이거 안되는거얌
 
