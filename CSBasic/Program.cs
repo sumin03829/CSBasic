@@ -80,8 +80,25 @@ namespace CSBasic
             Console.WriteLine(62 < 273);//이거 안되는거얌
 
             Console.WriteLine(DateTime.Now.Hour < 3 || 8< DateTime.Now.Hour); 
-            Console.WriteLine(DateTime.Now.Hour < 3 && 8< DateTime.Now.Hour); 
+            Console.WriteLine(DateTime.Now.Hour < 3 && 8< DateTime.Now.Hour);
 
+            //integer overflow
+            int a = 2147483647;
+            int b = 1;
+            Console.WriteLine(a + b); //변수의 크기를 넘어서서 - 형태로 출력됨
+
+            double c = 52.263;
+            char d = '아';
+
+            //size of 연산자
+            Console.WriteLine("int: " + sizeof(int));
+            Console.WriteLine("double: " + sizeof(double));
+            Console.WriteLine("long: " + sizeof(long));
+            Console.WriteLine("float: " + sizeof(float));
+            Console.WriteLine("char: " + sizeof(char));
+            Console.WriteLine("bool: " + sizeof(bool));
+
+            bool TrueOrFalse = true;
         }
     }
 }
