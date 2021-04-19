@@ -9,6 +9,7 @@ namespace CSBasic
         {
             var name = "최" + "수" + "민";
             Console.Write("개행이 안되는 녀석");
+            Console.Write("");
             Console.WriteLine("개행이 되는 녀셕");
 
             var alpha = "알파";
