@@ -140,6 +140,11 @@ namespace CSBasic
             Console.WriteLine(_char.GetType());
             Console.WriteLine((2211111111L).GetType());
 
+            var number3 = 100;
+            var number4="엄마보고싶다";
+            var number5 = 100.0;
+            var number6 = 100.0F;
+
         }
     }
 }
