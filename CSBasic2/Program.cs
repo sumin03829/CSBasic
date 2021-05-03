@@ -41,7 +41,7 @@ namespace CSBasic2
 
             if (DateTime.Now.Hour < 11)
             {
-                Console.WriteLine("아침 먹을 시간!");
+                Console.WriteLine("아침 먹을 시간!");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
             }else if (DateTime.Now.Hour < 15)
             {
                 Console.WriteLine("점심 먹을 시간!");
