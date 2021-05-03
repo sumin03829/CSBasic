@@ -47,6 +47,16 @@ namespace CSBasic3
                 }
                 Console.WriteLine("잘못된 입력입니다.");
             } while (input != "exit");
+
+            /*for (int i2 = '가'; i2 <= '힣'; i2++)
+            {
+                Console.WriteLine((char)i2);
+            }*/
+
+            for(i = intArray3.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine(intArray3[i]);
+            }
         }
     }
 }
