@@ -35,6 +35,11 @@ namespace WindowsFormsApp1
                 trackBar1.Value = 20;
             this.Opacity = trackBar1.Value / 100.0;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
