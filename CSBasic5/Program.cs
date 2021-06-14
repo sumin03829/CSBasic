@@ -19,6 +19,10 @@ namespace CSBasic5
             MyMath.Abs(273);
             MyMath.Abs(52.273);
             MyMath.Abs(3000000000);
+
+            ml.somePublic();
+            /*ml.someDefault();
+            ml.somePrivate();*/
         }
 
         class MyMath
@@ -39,6 +43,20 @@ namespace CSBasic5
 
         class MultiClass
         {
+            public void somePublic()
+            {
+                Console.WriteLine("public:");
+            }
+            public void someDefault()
+            {
+                Console.WriteLine("Default:");
+            }
+            public void somePrivate()
+            {
+                Console.WriteLine("Private:");
+            }
+
+
             public int Multi(int x, int y)
             {
                 return x * y;
