@@ -39,6 +39,68 @@ namespace CSBasic5
             Console.WriteLine("세 번째 위치");
         }
 
+        Box box = new Box(10, 10);
+
+       class Box
+        {
+            public int some { get; set; }
+            public int MyProperty { get; set; }
+            public int Price { get; set; }
+            public int width;
+
+            public int Width
+            {
+                get { return width; }
+                set { 
+                    if (value > 0)
+                    {
+                        this.width = value;
+                    }
+                    else
+                    {
+                        Console.WriteLine("너비는 양수를 입력해주세요");
+                    }
+                }
+            }
+
+            public int height;
+
+            public int Height
+            {
+                get { return height; }
+                set {
+                    if (value > 0)
+                    {
+                        this.width = value;
+                    }
+                    else
+                    {
+                        Console.WriteLine("너비는 양수를 입력해주세요");
+                    }
+                }
+            }
+
+            public Box(int width, int height)
+            {
+                this.width = width;
+                this.height = height;
+            }
+
+
+            private int area;
+            public int Area
+            {
+                get { return this.width* this.height; }
+
+            }
+
+            /*public int Area()
+            {
+                return this.width * this.height;
+            }*/
+
+        }
+
         class Sample
         {
             public static int value;
